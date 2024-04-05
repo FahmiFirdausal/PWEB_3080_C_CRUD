@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6283c9;
+    overflow-x: hidden;
+    padding-top: 30px;
+  }
+  .sidebar h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .sidebar h2 img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .main {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  .main h1 {
+    font-size: 36px;
+    color: #6283c9;
+  }
+  .main #search-box {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: -80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .main #search-box:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #6283c9;
+  }
+  .utama {
+    height: 60vh;
+    margin-left: 230px;
+    margin-right: 50px;
+    margin-top: 80px;
+    padding:20px;
+    background-color: rgb(155, 174, 209);
+    display: block;
+    border-radius: 30px;
+  }
+  .utama table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .utama th,
+  .utama td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .utama th {
+    background-color: #6283c9;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .utama tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .utama td:last-child {
+    text-align: right;
+  }
+  
+  .utama td.due-date {
+    color: red;
+  }
+  form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #6283c9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4a68a5;
+}
